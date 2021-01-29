@@ -78,7 +78,7 @@ def main():
         result=predict_note_authentication(variance,skewness,curtosis,entropy)
     st.success('The output is {}'.format(result))
     if st.button("About"):
-        st.text("Lets LEarn")
+        st.text("Lets Learn")
         st.text("Built with Streamlit")
 
 if __name__=='__main__':
